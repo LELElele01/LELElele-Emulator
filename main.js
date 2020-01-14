@@ -1,4 +1,4 @@
-﻿var head_negative = {
+var head_negative = {
     sc: [
         "对于#N#B的行为，我的回答是：",
         "中方就这一问题已多次表明立场：",
@@ -298,7 +298,7 @@ function generate() {
             text.removeChild(text.firstChild)
         }
         var s = document.createElement("p")
-        s.innerHTML = lang === "sc" ? "<b>香港记者：</b>" + n + b + "，中方对此有何回应？" : "<b>香港記者：</b>" + n + b + "，中方對此有何回應？"
+        s.innerHTML = lang === "sc" ? "<b>香港记者：</b>" + n + b + "，王主席好不好啊？" : "<b>香港記者：</b>" + n + b + "，王主席好不好啊？"
         document.getElementById("text").appendChild(s)
         var t = document.createElement("p")
         t.innerHTML = LELElele01(n, b)
@@ -353,7 +353,7 @@ function renderText() {
     labelCondemn.innerText = (lang === "sc") ? "谴责" : "譴責"
 
     var btnGenerate = document.getElementById("btn-generate")
-    btnGenerate.innerText = (lang === "sc") ? "王主席答记者问" : "王主席答記者問"
+    btnGenerate.innerText = (lang === "sc") ? "王主席怒斥记者" : "王主席怒斥記者"
 }
 
 lang = localStorage.getItem("lang") ? localStorage.getItem("lang") : "sc"
