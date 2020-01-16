@@ -114,7 +114,7 @@ function shuffle(sentences){
 function LELElele01(n, b) {
     paragraphs = Math.floor((Math.random() * 3 + 3))
     var i
-    var answer = "<b>王佳乐主席：先让我组织一下语言……</b>"
+    var answer = "<b>王佳乐主席：</b>先让我组织一下语言……"
     var index = Math.floor((Math.random() * head.length))
     answer += head[index]
     shuffle(sentences)
