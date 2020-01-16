@@ -26,7 +26,7 @@ var sentence_negative = {
         "#N怎么能按人数#B呢？",
         "#N就像国企一样剥削人民。",
         "#N是国家的走狗。"
-    ]
+    ],
     tc: [
         "規則不是人定的，#N#B的行為是在亂定規則。",
     "我的政敵越來越多。",
@@ -78,8 +78,7 @@ var verb = {
         "退出"
     ],
     tc: [
-        "通過", "簽署", "開放", "承認", "否認", "推出", "退出", "拒絕", "譴責", "支持", "宣稱", "表彰", "煽動", "組織", "公然挑釁", "成立", "模糊",
-        "退出"
+	    
     ]
 }
 
@@ -94,9 +93,9 @@ var ob = {
 }
 
 var countries = {
-    sc: ""
+    sc: "蔡英文、韩国瑜、宋楚瑜、习近平、邓小平、毛泽东、江泽民、希特勒、墨索里尼、马克思、恩格斯、安倍晋三、普京、川普、林郑月娥、赵紫阳、林彪"
     .split("、"),
-    tc: ""
+    tc: "蔡英文、韓國瑜、宋楚瑜、習近平、鄧小平、毛澤東、江澤民、希特勒、墨索里尼、馬克思、恩格斯、安倍晉三、普京、川普、林鄭月娥、趙紫陽、林彪"
     .split("、")
 }
 
@@ -115,7 +114,7 @@ function shuffle(sentences){
 function LELElele01(n, b) {
     paragraphs = Math.floor((Math.random() * 3 + 3))
     var i
-    var answer = "<b>王主席：</b>"
+    var answer = "<b>王佳乐主席：先让我组织一下语言……</b>"
     var index = Math.floor((Math.random() * head.length))
     answer += head[index]
     shuffle(sentences)
@@ -153,7 +152,7 @@ function generate() {
             text.removeChild(text.firstChild)
         }
         var s = document.createElement("p")
-        s.innerHTML = lang === "sc" ? "<b>香港记者：</b>" + n + b + "，王主席你觉得好不好啊？" : "<b>香港記者：</b>" + n + b + "，王主席你覺得好不好啊？"
+        s.innerHTML = lang === "sc" ? "<b>香港记者：</b>" + n + b + "，王佳乐主席你觉得好不好啊？" : "<b>香港記者：</b>" + n + b + "，王佳乐主席你覺得好不好啊？"
         document.getElementById("text").appendChild(s)
         var t = document.createElement("p")
         t.innerHTML = LELElele01(n, b)
