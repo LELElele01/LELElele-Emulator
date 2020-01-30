@@ -1,5 +1,7 @@
 # LELElele-Emulator
 
+<a style="font-size:24px; font-weight:bold" herf="https://mnis.gitee.io/contact/">Contact Us</a>
+
 目前语录：
 
 - 我要打你
