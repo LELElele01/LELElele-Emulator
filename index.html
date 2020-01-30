@@ -14,32 +14,43 @@
 
 <body>
     <h1>LELElele Emulator<br/>乐<<2 模擬器</h1>
-    <h2> 乐<<2模拟器是基于王佳乐同志的语录，修改语序、替换主语/谓语而制成的一个<a href="https://github.com/LELElele01/LELElele-Emulator">开源项目</a>，本项目仅供娱乐，不可用于人身攻击，不带有任何政治诉求。</h2><br/>
-    <h2> 樂<<2模擬器是基於王佳樂同志的語錄，修改語序、替換主語/謂語而製成的一個<a href="https://github.com/LELElele01/LELElele-Emulator">開源項目</a> ，本項目僅供娛樂，不可用於人身攻擊，不帶有任何政治訴求。</h2><br/>
-    <h2> Le << 2 Simulator is an <a href="https://github.com/LELElele01/LELElele-Emulator">open source project</a> based on the quotations of Comrade Wang Jiale, modifying the word order and replacing the subject / predicate. This project is for entertainment only, not for personal attacks, and without any political demands. </h2><br/>
-    <h2><a href="https://mnis.gitee.io/contact">Contact Us</a></h2>
-    <div class="slogan">
-        <img src="lelelele.png" width="120%">
-    </div>
-    <hr/><br/><small class="label" id="label-lang">语言</small>
-    <select id="lang" onchange="changeLang(this.value)">
-        <option value="sc">简体</option>
-        <option value="tc">繁體</option>
-    </select>
-    <small class="label" id="label-n">发言对象：</small><input type="text" id="1">
-    <small class="label" id="label-b">对方干了什么事情：</small><input type="text" id="2">
-    <small class="label" id="label-attitude">态度：</small>
-    <input type="radio" name ="attitude" id="r1" value="support"><label for="support" id="label-support">支持</label>
-    <input type="radio" name ="attitude" id="r2" value="condemn" checked><label for="condemn" id="label-condemn">谴责</label>
-    <div class="actions">
-        <div class="button clickable" id="btn-generate" onclick="generate()">王主席答记者问</div>
-        <img class="shuffle clickable" onclick="random()" src="shuffle.svg">
-    </div>
-    <div id="text"></div>
-    <div class="slogan">
-        <center><img src="mnis.png" width="50%"></center>
-    </div>
-  <script src="main.js"></script>
-</body>
+        <h2><a href="https://mnis.gitee.io/contact">Contact Us</a></h2>
+        <h2>简介 / 簡介 / Introduction</h2>
+        <span style="font-weight:bold">
+            乐<<2模拟器是基于王佳乐同志的语录，修改语序、替换主语/谓语而制成的一个 <a href="https://github.com/LELElele01/LELElele-Emulator">开源项目</a>
+                ，本项目仅供娱乐，不可用于人身攻击，不带有任何政治诉求。</span><br /><br />
+        <span style="font-weight:bold">
+            樂<<2模擬器是基於王佳樂同志的語錄，修改語序、替換主語/謂語而製成的一個 <a href="https://github.com/LELElele01/LELElele-Emulator">開源項目</a>
+                ，本項目僅供娛樂，不可用於人身攻擊，不帶有任何政治訴求。</span><br /><br />
+        <span style="font-weight:bold">
+            Le<<2 Simulator is an <a href="https://github.com/LELElele01/LELElele-Emulator">open source project</a>
+                based on the quotations of Comrade Wang Jiale, modifying the word order and replacing the subject / predicate.
+                This project is for entertainment only, not for personal attacks, and without any political demands.
+        </span><br /><br />
+        <div class="slogan">
+            <img src="lelelele.png" alt="lelelele" width="120%">
+        </div>
+        <hr /><br /><small class="label" id="label-lang">语言</small>
+        <select id="lang" onchange="changeLang(this.value)">
+            <option value="sc">简体</option>
+            <option value="tc">繁體</option>
+        </select>
+        <small class="label" id="label-n">发言对象：</small><input type="text" id="1">
+        <small class="label" id="label-b">对方干了什么事情：</small><input type="text" id="2">
+        <small class="label" id="label-attitude">态度：</small>
+        <input type="radio" name="attitude" id="r1" value="support"><label for="support"
+        id="label-support">支持</label>
+        <input type="radio" name="attitude" id="r2" value="condemn" checked><label for="condemn"
+        id="label-condemn">谴责</label>
+        <div class="actions">
+            <div class="button clickable" id="btn-generate" onclick="generate()">王主席答记者问</div>
+            <img class="shuffle clickable" onclick="random()" src="shuffle.svg" alt="shuffle">
+        </div>
+        <div id="text"></div>
+        <div class="slogan">
+            <center><img src="mnis.png" alt="mnis" width="50%"></center>
+        </div>
+        <script src="main.js"></script>
 
+</body>
 </html>

@@ -1,6 +1,6 @@
 # LELElele-Emulator
 
-<a style="font-size:24px; font-weight:bold" herf="https://mnis.gitee.io/contact/">Contact Us</a>
+<a style="font-family: 'Roboto Mono', '思源黑体', sans-serif; font-size:24px; font-weight:bold" herf="https://mnis.gitee.io/contact/">Contact Us</a>
 
 目前语录：
 
