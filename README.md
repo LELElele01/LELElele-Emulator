@@ -1,6 +1,6 @@
 # LELElele-Emulator
 
-<a style="font-family: 'Roboto Mono', '思源黑体', sans-serif; font-size:24px; font-weight:bold" herf="https://mnis.gitee.io/contact/">Contact Us</a>
+## fork from [Gengshunag Emulator耿爽模拟器](https://github.com/gengshuang1/gengshuang1.github.io)
 
 目前语录：
 
