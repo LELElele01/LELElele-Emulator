@@ -8,11 +8,12 @@
 
 ### Le<<2 Simulator is an open source project based on the quotations of Comrade Wang Jiale, modifying the word order and replacing the subject / predicate. This project is for entertainment only, not for personal attacks, and without any political demands.
 
-## (当然如果您想一起~~批判王主席~~锻炼代码能力，欢迎加入我们： @monyhzc @okazakiyumemi
+### (当然如果您想一起~~批判王主席~~锻炼代码能力，欢迎加入我们： @monyhzc @okazakiyumemi
 
-##  [下放王佳乐同志的博客](https://blog.csdn.net/LELElele01)
+###  [下放王佳乐同志的博客](https://blog.csdn.net/LELElele01)
 
-#　目前语录：
+# 目前语录：
+
 - 我要打你
 - 快快快
 - 国企剥削人民
