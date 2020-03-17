@@ -36,7 +36,7 @@ var countries = {
 var head, sentences, lang;
 
 function shuffle(sentences){
-    for (var i =sentences.length/2;i>0;i--){
+    for (var i =sentences.length;i>0;i--){
         var random_pos=Math.floor(Math.random()*i)
         var tmp=sentences[i-1]
         sentences[i-1]=sentences[random_pos]
@@ -46,7 +46,7 @@ function shuffle(sentences){
 
 
 function LELElele01(n, b) {
-    paragraphs = Math.floor((Math.random() * 2 + 2))
+    paragraphs = Math.floor((Math.random() + 3))
     var i
     var answer = ""
     var index = Math.floor((Math.random() * head.length))
@@ -54,7 +54,7 @@ function LELElele01(n, b) {
     shuffle(sentences)
     index=0
     for (i = 0; i < paragraphs; i++) {
-        length = Math.floor((Math.random() * 2 + 4))
+        length = Math.floor((Math.random() * 3 + 5))
         for (j = 0; j < length; j++) {
             answer += sentences[index++]
         }
